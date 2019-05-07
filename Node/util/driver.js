@@ -1,8 +1,8 @@
 const puppeteer = require('puppeteer');
 
 module.exports = async function driver() {
-  const browser = await puppeteer.launch({ headless: false });
-  // const browser = await puppeteer.launch(); //无头浏览器
+  //   const browser = await puppeteer.launch({ headless: false }); // 设置headless：false，查看执行过程
+  const browser = await puppeteer.launch(); //无头浏览器
   const page = await browser.newPage();
 
   await page.goto('https://www.baidu.com');
@@ -13,7 +13,12 @@ module.exports = async function driver() {
     document.querySelector('#su').click();
   });
 
-  //等待10s后关闭browser
-  await page.waitFor(10000);
+  //等待3s
+  await page.waitFor(3000);
+
+  //截屏
+  await page.screenshot({ path: 'example.png' });
+
+  //关闭browser
   browser.close();
 };
