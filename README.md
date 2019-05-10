@@ -5,9 +5,7 @@
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
 ## Introduction
-This is a collection of simple demos of web drivers by kinds of lang.
-
-These demos can help you to start to play web drivers quickly.
+This is a collection of simple demos of web drivers by kinds of lang. These demos can help you to start to play web drivers quickly. Then, you can do somethings based on these demos.
 
 ## Example
 This is a example based on node. 
@@ -16,8 +14,9 @@ This is a example based on node.
 
 ## Getting Start
 
-Node 
+### Node 
 
+The example requires a Node library [puppeteer](https://github.com/GoogleChrome/puppeteer), which provides a high-level API to control Chrome or Chromium .
 ```
 # clone the project
 git clone https://github.com/SamenYan/webdriver-demos.git
@@ -32,7 +31,9 @@ npm install
 npm run start
 ```
 
-Java 
+### Java 
+
+A Java automation application based on [SpringBoot](https://github.com/ityouknow/spring-boot-examples),  [Selenium](https://github.com/SeleniumHQ/selenium) .
 
 ```
 # clone the project 
@@ -42,6 +43,15 @@ git clone https://github.com/SamenYan/webdriver-demos.git
 
 # project directory
 cd Java/demo
+```
+
+selenium ：
+```
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>2.44.0</version>
+</dependency>
 ```
 
 ## License
