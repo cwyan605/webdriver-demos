@@ -1,6 +1,8 @@
 #  webdriver-demos
 ![Node](https://img.shields.io/node/v/passport/latest.svg)
 ![Spring Boot 2.0](https://img.shields.io/badge/Spring%20Boot-2.0-brightgreen.svg)
+![Coverage](https://img.shields.io/codacy/coverage/59d607d0e311408885e418004068ea58/master.svg)
+![MIT](https://img.shields.io/npm/l/express.svg)
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
