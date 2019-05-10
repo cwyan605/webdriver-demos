@@ -11,7 +11,7 @@ These demos can help you to start to play web drivers quickly.
 
 ## Example
 This is a example based on node. 
-![video](./video.mov)
+![example](./example.gif)
 ## Getting Start
 Node 
 
