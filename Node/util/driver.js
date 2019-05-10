@@ -1,8 +1,8 @@
 const puppeteer = require('puppeteer');
 
 module.exports = async function driver() {
-  //   const browser = await puppeteer.launch({ headless: false }); // 设置headless：false，查看执行过程
-  const browser = await puppeteer.launch(); //无头浏览器
+  const browser = await puppeteer.launch({ headless: false }); // 设置headless：false，查看执行过程
+  // const browser = await puppeteer.launch(); //一般用无头浏览器
   const page = await browser.newPage();
 
   await page.goto('https://www.baidu.com');
