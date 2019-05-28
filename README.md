@@ -7,7 +7,7 @@
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
 ## Introduction
-This is a collection of simple demos of web drivers by kinds of lang. These demos can help you to start to play web drivers quickly. Then, you can do somethings based on these demos.
+A collection of simple demos of web auto drivers. These demos can help you run drivers quickly. Then, you can do more based on them.
 
 ## Example
 This is a example based on node. 
